@@ -48,6 +48,27 @@ const whatToDoForLunch = function(hungry, availableTime) {
     }
 };
 
+
+
+/* 
+ * Feedback to lunch solution above
+ *const whatToDoForLunch = function(hungry, availableTime) *{
+ *  if (!hungry) {
+ *       console.log("No need to eat right now. Keep *working!"); // Not hungry, keep working
+  *  } else {
+   *     if (availableTime < 20) {
+    *        console.log("You're hungry, but there's not *much time. Consider a snack."); // Less than 20 *minutes, grab a snack
+     *   } else if (availableTime <= 30) {
+      *      console.log("Get a quick snack and eat it in *the lab!"); // 20-30 minutes, cook a meal
+       * } else {
+        *    console.log("This is an intense program, *maybe you can use that time to work instead."); // More than 30 minutes, reconsider
+        }
+    }
+};
+*/
+
+
+
 /*
  * This is some test runner code that's simply calling our whatToDoForLunch function
  * defined above to verify we're making the right decisions. Do not modify it!
