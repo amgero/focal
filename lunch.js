@@ -29,28 +29,27 @@
 */
 
 const whatToDoForLunch = function(hungry, availableTime) {
-    if (!hungry) {
-        if (availableTime >= 30) {
-            console.log("Get back to work then!");
-        } else {
-            console.log("No need to eat right now. Keep working!");
-        }
+  if (!hungry) {
+    if (availableTime >= 30) {
+      console.log("Get back to work then!");
     } else {
-        if (availableTime >= 50) {
-            console.log("This is an intense program, maybe you can use that time to work instead.");
-        } else if (availableTime >= 30) {
-            console.log("Try that cool cafe around the corner!");
-        } else if (availableTime >= 20) {
-            console.log("Get a quick snack and eat it in the lab!");
-        } else {
-            console.log("You're hungry, but there's not much time. Consider a snack.");
-        }
+      console.log("No need to eat right now. Keep working!");
     }
+  } else {
+    if (availableTime >= 50) {
+      console.log("This is an intense program, maybe you can use that time to work instead.");
+    } else if (availableTime >= 30) {
+      console.log("Try that cool cafe around the corner!");
+    } else if (availableTime >= 20) {
+      console.log("Get a quick snack and eat it in the lab!");
+    } else {
+      console.log("You're hungry, but there's not much time. Consider a snack.");
+    }
+  }
 };
 
 
-
-/* 
+/*
  * Feedback to lunch solution above
  *const whatToDoForLunch = function(hungry, availableTime) *{
  *  if (!hungry) {
