@@ -13,7 +13,8 @@
  * in minutes.
  */
 
-/* const whatToDoForLunch = function(hungry, availableTime) {
+/* initial attempt 
+const whatToDoForLunch = function(hungry, availableTime) {
   console.log("I don't know what to do!");
     if (hungry === false && availableTime >= 30) {
         console.log("Get back to work then!");
